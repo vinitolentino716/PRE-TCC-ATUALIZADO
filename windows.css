@@ -1,0 +1,257 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header {
+  background-color: #002050; /*Coloca o Header com a cor de fundo ciano*/
+  display: flex; /*Coloca um do lado do outro*/
+  justify-content: flex-start; /*Junta os elementos*/
+  align-items: center; /* Centraliza verticalmente o logo e os links */
+  padding: 10px 30px; /* Adiciona um espaçamento interno*/
+  height: 130px;
+}
+.ancora{
+    display: flex; /*Coloca um do lado do outro*/
+    gap: 25px; /* Espaço entre Windows, Xbox e Contatos */
+}
+  .ancora a{
+    color: white; /*Altera a cor de branco pra preto*/
+    text-decoration: none; /*Remove o sublinhado*/
+    font-size: 30px; /*Tamanho da fonte*/
+}
+#imagem-microsoft{
+  width: 250px;
+}
+    body{
+      background-color: #dce1e5;;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+#titulo-windows{
+text-align: center;
+margin-top: 20px;
+}
+.caixa-windows{
+background-color: white;
+border: 100px;
+border-radius: 25px;
+width: 250px;
+height: 300px;
+margin-left: 50px;
+margin-top: 50px;
+}
+
+.produtos-section{
+display: flex;
+justify-content: center;
+align-items: stretch;
+gap: 20px;
+}
+.caixa-windows{
+background-color: white;
+border: 100px ;
+border-radius: 25px;
+text-align: center;
+transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+}
+.caixa-windows:hover{
+transform: translateY(-10px);
+}
+#imagem-word{
+width: 150px;
+margin-left: 10px;
+margin-top: 10px;
+}
+#h-word{
+text-align: center;
+}
+#titulo-word{
+  font-size: 20px;
+text-align: center;
+padding: 10px;
+}
+#h3-word{
+text-align: center;
+font-weight: 400;
+}
+#paragrafo-word{
+font-size: 15px;
+text-align: center;
+padding: 20px;
+}
+#imagem-excel{
+width: 100px;
+margin-left:-5px;
+margin-top: 10px;
+}
+#titulo-excel{
+  font-size: 20px;
+text-align: center;
+padding: 7px;
+}
+#h3-excel{
+text-align: center;
+font-weight: 400;
+padding: 5px;
+}
+#paragrafo-excel{
+font-size: 15px;
+text-align: center;
+margin-left: 10px;
+padding: 15px;
+
+}
+#imagem-powerpoint{
+width: 100px;
+margin-top: 10px;
+
+}
+#titulo-powerpoint{
+font-size: 20px;
+}
+#h3-powerpoint{
+text-align: center;
+font-weight: 400;
+padding: 20px;
+}
+#paragrafo-powerpoint{
+font-size: 15px;
+text-align: center;
+margin-left: 10px;
+padding: -50px;
+}
+#imagem-onedrive{
+width: 100px;
+margin-top: 10px;
+}
+#titulo-onedrive{
+font-size: 20px;
+}
+#h3-one-drive{
+text-align: center;
+font-weight: 400;
+padding: 20px;
+}
+#comprar-produtos{
+text-align: center;
+padding: 50px;
+}
+.produtos-compra{
+display: flex;
+justify-content: center;
+align-items: stretch;
+gap: 20px;
+}
+.roxo{
+background-color: #D8B9ED;
+border-radius: 35px;
+width: 300px;
+height: 150px;
+transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.roxo:hover{
+transform: translateY(-10px);
+}
+#imagem-roxo{
+width: 50px;
+height: 50px;
+margin-left: 10px;
+}
+#h4-roxo{
+margin-left: 8px;
+}
+#paragrafo-roxo{
+margin-left: 8px;
+margin-top: 10px;
+}
+.cartão-laranja{
+background-color: #F5D0B8;
+border-radius: 35px;
+width: 300px;
+height: 150px;
+transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.cartão-laranja:hover{
+transform: translateY(-10px);
+}
+#imagem-laranja{
+height: 50px;
+width: 100px;
+margin-left: -10px;
+}
+#h4-laranja{
+margin-left: 8px;
+}
+#paragrafo-laranja{
+margin-left: 8px;
+}
+.cartão-azul{
+background-color: #B7D4F5;
+border-radius: 35px;
+width: 300px;
+height: 150px;
+transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.cartão-azul:hover{
+transform: translateY(-10px);
+}
+#imagem-azul{
+height: 50px;
+width: 100px;
+}
+#h4-azul{
+margin-left: 8px;
+}
+#paragrafo-azul{
+margin-left: 8px;
+}
+.Rodape{
+    background-color: #002050;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+    }
+    #titulo-rodape{
+    font-family: 'Segoe UI', sans-serif;
+      font-size: 45px;
+      letter-spacing: 1px;
+      margin-bottom: 15px;
+    }
+    .redes-sociais{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    
+    }
+    .imagem-rodape{
+        height: 75px;
+    width: auto;
+    display: inline-block;
+    margin: 0;
+    object-fit: contain;
+    }
+    
+    
+    .copyright {
+      font-size: 20px;
+      color: #cccccc;
+      margin-top: 15px;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    img{
+        width: 200px;
+        height: 100px;
+    }

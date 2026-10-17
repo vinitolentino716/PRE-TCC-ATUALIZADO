@@ -1,0 +1,193 @@
+@import url('https://fonts.cdnfonts.com/css/ignis-et-glacies-sharp-2');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+/*Estrutura Basica do CSS*/}
+header {
+    background-color: #002050; /*Coloca o Header com a cor de fundo ciano*/
+    display: flex; /*Coloca um do lado do outro*/
+    justify-content: flex-start; /*Junta os elementos*/
+    align-items: center; /* Centraliza verticalmente o logo e os links */
+    padding: 10px 30px; /* Adiciona um espaçamento interno*/
+    height: 130px;
+}
+body{
+background-color: #dce1e5;
+margin: 0;
+padding: 0;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ancora{
+display: flex; /*Coloca um do lado do outro*/
+gap: 25px; /* Espaço entre Windows, Xbox e Contatos */
+
+}
+.ancora a{
+    color: white; /*Altera a cor de branco pra preto*/
+    text-decoration: none; /*Remove o sublinhado*/
+    font-size: 30px; /*Tamanho da fonte*/
+}
+#lançamentos{
+        background-color: green;
+        text-align: center;
+        font-size: 90px;
+        font-family: 'Ignis et Glacies Sharp', sans-serif;
+}
+#produtos{
+background-color: #151F23;
+text-align: center;
+font-size: 90px;
+color: #0fb60f;
+font-family: 'Ignis et Glacies Sharp', sans-serif;
+margin-top: 40px;
+}
+.imagens-lançamentos{
+border-radius: 25px;
+padding: 20px;
+box-shadow: 0 4px 15px rgb(10, 144, 185);
+transition: transform 0.2s ease;
+margin-top: 30px;
+}
+.imagens-lançamentos:hover{
+transform: translateY(-10px);
+}
+#imagem-gears{
+border-radius: 25px;
+padding: 20px;
+box-shadow: 0 4px 15px rgb(10, 144, 185);
+transition: transform 0.2s ease;
+margin-top: 30px;
+margin-left: 15px;
+}
+#imagem-gears:hover{
+transform: translateY(-10px); 
+}
+#imagem-mine{
+border-radius: 25px;
+padding: 20px;
+box-shadow: 0 4px 15px rgb(10, 144, 185);
+transition: transform 0.2s ease;
+margin-top: 30px;
+margin-left: 5px; 
+}
+#imagem-mine:hover{
+transform: translateY(-10px);
+}
+#imagem-call-of{
+border-radius: 25px;
+padding: 20px;
+box-shadow: 0 4px 15px rgb(10, 144, 185);
+transition: transform 0.2s ease;
+margin-top: 30px;
+margin-left: 15px;
+}
+#imagem-call-of:hover{
+transform: translateY(-10px);
+}
+#imagem-gta{
+border-radius: 25px;
+padding: 20px;
+box-shadow: 0 4px 15px rgb(10, 144, 185);
+transition: transform 0.2s ease;
+margin-top: 30px;
+margin-left: 18px;
+}
+#imagem-gta:hover{
+transform: translateY(-10px);
+}
+.section-lançamento{
+display: flex;
+gap: 15px;
+}
+.section-produtos{
+display: flex;
+gap: 15px;
+}
+
+#imagem-xbox-game{
+border-radius: 25px;
+padding: 20px;
+box-shadow: 0 4px 15px rgb(10, 144, 185);
+transition: transform 0.2s ease;
+margin-top: 30px;
+margin-left: 15px;  
+}
+#imagem-xbox-game:hover{
+transform: translateY(-10px);
+}
+#imagem-controle{
+border-radius: 25px;
+padding: 20px;
+box-shadow: 0 4px 15px rgb(10, 144, 185);
+transition: transform 0.2s ease;
+margin-top: 30px;  
+margin-left: 15px; 
+}
+#imagem-controle:hover{
+transform: translateY(-10px);
+}
+#imagem-over{
+border-radius: 25px;
+padding: 20px;
+box-shadow: 0 4px 15px rgb(10, 144, 185);
+transition: transform 0.2s ease;
+margin-top: 30px;
+margin-left: 1px;
+}
+#imagem-over:hover{
+transform: translateY(-10px);
+}
+.imagens-produtos{
+border-radius: 25px;
+padding: 20px;
+box-shadow: 0 4px 15px rgb(10, 144, 185);
+transition: transform 0.2s ease;
+margin-top: 30px;
+}
+.imagens-produtos:hover{
+transform: translateY(-10px);  
+}
+.Rodape{
+background-color: #002050;
+color: white;
+text-align: center;
+padding: 20px;
+margin-top: 40px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 20px;
+
+}
+#titulo-rodape{
+font-family: 'Segoe UI', sans-serif;
+  font-size: 45px;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+.redes-sociais{
+display: flex;
+flex-direction: row;
+gap: 20px;
+align-items: center;
+justify-content: center;
+
+}
+.imagem-rodape{
+height: 75px;
+width: auto;
+display: inline-block;
+margin: 0;
+object-fit: contain;
+}
+
+
+.copyright {
+  font-size: 20px;
+  color: #cccccc;
+  margin-top: 15px;
+  font-family: 'Segoe UI', sans-serif;
+}

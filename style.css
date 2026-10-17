@@ -1,0 +1,275 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+/*Estrutura Basica do CSS*/
+} 
+
+header {
+    background-color: #002050; /*Coloca o Header com a cor de fundo ciano*/
+    display: flex; /*Coloca um do lado do outro*/
+    justify-content: flex-start; /*Junta os elementos*/
+    align-items: center; /* Centraliza verticalmente o logo e os links */
+    padding: 10px 30px; /* Adiciona um espaçamento interno*/
+    height: 130px;
+}
+body{
+background-color: #dce1e5;;
+margin: 0;
+padding: 0;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ancora{
+display: flex; /*Coloca um do lado do outro*/
+gap: 25px; /* Espaço entre Windows, Xbox e Contatos */
+
+}
+.ancora a{
+    color: white; /*Altera a cor de branco pra preto*/
+    text-decoration: none; /*Remove o sublinhado*/
+    font-size: 30px; /*Tamanho da fonte*/
+}
+
+main{
+display: flex; /*Coloca as duas seções lado a lado*/
+justify-content: space-between; /*Centraliza os itens*/
+flex-wrap: wrap;
+gap: 20px; /*Cria espaçamento entre elas*/
+padding: 20px; /*desce o conteudo*/
+align-items: stretch; /*Faz os itens esticarem no eixo transversal*/
+width: 100%; /*Largura do Main*/
+
+}
+.caixa-sobre {
+    background-color: white; /*Coloca a cor verde de fundo na caixa*/
+    height: 490px; /*Altura da caixa*/
+    width: 45%; /*Largura da caixa*/
+    border-radius: 25px; /*Arredondamento da borda da caixa*/
+    margin-top: 1%; /*Margem externa de 1%*/
+    display: flex; /*Ativa o flexbox e coloca as imagens um do lado da outro*/
+    flex: 1; /*Faz a caixa crescer e dividir o espaço disponivel de forma igual*/
+    max-width: 48%; /*Limite de largura para que as caixas ocupem a mesma linha*/
+    padding: 20px; /*Espaçamento interno onde esta os textos*/
+    flex-direction: column; /*Organiza os itens em forma vertical*/
+    align-items: center; /*Centraliza os textos no meio*/
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease;
+}
+.caixa-sobre:hover{
+transform: translateY(-7px);
+
+}
+.sobre {
+    display: flex; /*Ativa o flexbox e coloca as imagens um do lado do outro*/
+    flex-direction: column; /*Organiza os itens em forma vertical*/
+    text-align: center; /*Centraliza o texto no meio*/
+    align-items: center; /*Centraliza os textos no meio*/
+    width: 70%; /*Altura da caixa que contém os conteúdos*/
+}
+#paragrafo-sobre{
+text-align: center; /*Centraliza o texto*/
+width: 100%; /*Altura do texto*/
+margin: 10px; /*Distancia o titulo do paragrafo*/
+margin-left: 30px; /*Puxa o texto para a esquerda*/
+font-size: 25px; /*Aumenta o tamanho da fonte do paragrafo*/
+padding: -20px; /*Desce o texto*/
+color: black;
+}
+
+#titulo-sobre {
+    background-color: #f25022; /*Cor do fundo da caixa*/
+    color: white;
+    width: 300px; /*Tamanho da caixa*/
+    border: 100px; /*O tamanho da borda*/
+    border-radius: 25px; /*O quanto vai arredondar a borda*/
+    text-align: center; /*Centraliza o texto*/
+    margin-left: 100x; /*Coloca o texto no meio da caixa*/
+    margin-top: -25px; /*Puxa o titulo pra cima*/
+    font-size: 30px;
+}
+#imagem-caixa{
+    margin-top: 20px;
+}
+
+.caixa-fundo {
+    background-color: white; /*Cor de fundo da caixa verde*/
+    height: 490px; /*Altura da caixa*/
+    width: 100px; /*Largura da caixa*/
+    border-radius: 25px; /*Tamanho do arredondamento da caixa*/
+    margin-top: 1%; /*Margem externa de 1%*/
+    display: flex; /*Ativa o display flex e coloca os elementos um do lado do outro*/
+    flex: 1; /*Faz a caixa crescer e dividir o espaço disponivel de forma igual*/
+    max-width: 48%; /*Limite de largura para que as caixas ocupem a mesma linha*/
+    padding: 20px; /*Espaçamento interno onde esta os textos*/
+    flex-direction: column; /*Organiza os itens em forma vertical*/
+    align-items: center; /*Centraliza os elementos*/
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease;
+}
+.caixa-fundo:hover{
+transform: translateY(-7px);
+}
+
+.fundo {
+    display: flex; /*Ativa o flexbox*/
+    flex-direction: column; /*Organiza os itens em forma vertical*/
+    text-align: center; /*Centraliza os textos*/
+    align-items: center; /*Centraliza os elementos*/
+}
+
+#Titulo-caixa {
+    background-color: #00a4ef; /*Cor do fundo da caixa de laranja*/
+    color: white;
+    width: 300px; /*Largura da caixa*/
+    border: 100px; /*Tamanho da borda*/
+    border-radius: 25px; /*Tamanho do arredondamento da borda*/
+    margin-top: -25px; /*Puxa o texto pra cima*/
+    font-size: 30px;
+}
+#paragrafo-fundo{
+text-align: center; /*Centraliza o paragrafo*/
+width: 97%; /*Largura do paragrafo*/
+margin: 10px; /*Distancia do titulo*/
+margin-left: 25px; /* puxa o texto para esquerda*/
+padding: -30px; /*Desce o texto*/
+font-size: 25px;  /*Aumenta o tamanho da fonte do paragrafo*/
+color: black;
+}
+#imagem-fundo{
+margin-top: 25px;
+
+
+}
+.box-fundo{
+    background-color: white; /*Coloca a cor verde de fundo na caixa*/
+
+    height: 490px; /*Altura da caixa*/
+    width: 48%; /*Largura da caixa*/
+    border-radius: 25px; /*Arredondamento da borda da caixa*/
+    margin-top: 1%; /*Margem externa de 1%*/
+    display: flex; /*Ativa o flexbox e coloca as imagens um do lado da outro*/
+    flex: 1; /*Faz a caixa crescer e dividir o espaço disponivel de forma igual*/
+    max-width: 48%; /*Limite de largura para que as caixas ocupem a mesma linha*/
+    padding: 20px; /*Espaçamento interno onde esta os textos*/
+    flex-direction: column; /*Organiza os itens em forma vertical*/
+    align-items: center; /*Centraliza os textos no meio*/
+    margin-right: 850px; /*Joga a caixa para a esquerda*/
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease;
+}
+.box-fundo:hover{
+transform: translateY(-7px);
+}
+.box{
+    display: flex; /*Ativa o flexbox e coloca as imagens um do lado do outro*/
+    flex-direction: column; /*Organiza os itens em forma vertical*/
+    text-align: center; /*Centraliza o texto no meio*/
+    align-items: center; /*Centraliza os textos no meio*/
+    width: 70%; /*Altura da caixa que contém os conteúdos*/
+}
+#titulo-box{
+    background-color: #5b5fc7; /*Cor do fundo da caixa de laranja*/
+    color: white;
+    width: 300px; /*Largura da caixa*/
+    border: 100px; /*Tamanho da borda*/
+    border-radius: 25px; /*Tamanho do arredondamento da borda*/
+    margin-top: -25px; /*Puxa o texto pra cima*/
+     font-size: 30px;
+}
+#paragrafo-box{
+text-align: center; /*Centraliza o paragrafo*/
+width: 150%; /*Largura do paragrafo*/
+margin: 10px; /*Distancia do titulo*/
+margin-left: 25px; /* puxa o texto para esquerda*/
+font-size: 25px; /*Aumenta o tamanho da fonte do paragrafo*/
+padding: 35px; /*Desce o texto*/
+color: black;
+}
+#imagem-box{
+margin-top: 15px;
+}
+.ultima-caixa{
+    background-color: white;  /*Cor da caixa*/
+    height: 490px;  /*Altura da caixa*/
+    width: 300px;
+    border-radius: 25px; /*Arredondamento da caixa*/
+    padding: -20px;   /*Desce a caixa*/
+    margin-top: 15px; /*Espaçamento externo*/
+    margin-left: -815px; /*joga a caixa pra esquerda*/
+    margin-right: 2px; /*joga a caixa pra direita*/
+    
+    display: flex; /*Ativa o flexbox*/
+    flex-direction: column; /*Coloca o conteudo em coluna*/
+    gap: 20px; /*define o espaço*/
+    flex: 1; /*Faz a caixa crescer e dividir o espaço disponivel de forma igual*/
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease;
+}
+.ultima-caixa:hover{
+transform: translateY(-7px);
+}
+#titulo-final{
+    background-color: #7fba00; /*Cor do fundo da caixa de laranja*/
+    color: white;
+    width: 350px; /*Largura da caixa*/
+    border: 100px; /*Tamanho da borda*/
+    border-radius: 25px; /*Tamanho do arredondamento da borda*/
+    margin-top: -5px; /*Puxa o texto pra cima*/
+    text-align: center; /*Centraliza os textos*/
+    margin-left: 125px; /*Joga a caixa pra direita*/
+    font-size: 30px;
+    
+    
+}
+#lista{
+padding: 45px; /*Aumenta o tamanho da fonte do paragrafo*/
+font-size: 25px; /*Desce o texto*/
+margin-top: -15px;
+color: black;
+}
+#imagem-relogio{
+margin-top: -30px;
+margin-left: 250px;
+}
+.Rodape{
+background-color: #002050;
+color: white;
+text-align: center;
+padding: 20px;
+margin-top: 40px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 20px;
+
+}
+#titulo-rodape{
+font-family: 'Segoe UI', sans-serif;
+  font-size: 45px;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+.redes-sociais{
+display: flex;
+flex-direction: row;
+gap: 20px;
+align-items: center;
+justify-content: center;
+
+}
+.imagem-rodape{
+    height: 75px;
+width: auto;
+display: inline-block;
+margin: 0;
+object-fit: contain;
+}
+
+
+.copyright {
+  font-size: 20px;
+  color: #cccccc;
+  margin-top: 15px;
+  font-family: 'Segoe UI', sans-serif;
+}
